@@ -1,0 +1,104 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background-color:#001f3f;   /* Navy Blue Background */
+color:white;
+}
+
+/* Header */
+header{
+text-align:center;
+padding:25px;
+}
+
+/* Navigation */
+nav{
+text-align:center;
+padding:15px;
+}
+
+nav a{
+text-decoration:none;
+margin:10px;
+padding:10px 20px;
+border:2px solid white;
+border-radius:6px;
+color:white;
+font-weight:bold;
+}
+
+nav a:hover{
+background:white;
+color:#001f3f;
+}
+
+/* Main Content */
+.container{
+width:80%;
+margin:auto;
+text-align:center;
+padding:30px;
+}
+
+/* Buttons */
+.main-btn{
+display:inline-block;
+padding:12px 25px;
+border-radius:6px;
+background:white;
+color:#001f3f;
+text-decoration:none;
+margin-top:20px;
+font-weight:bold;
+}
+
+.main-btn:hover{
+background:#dcdcdc;
+}
+
+/* Project Cards */
+.project-card{
+background:white;
+color:#333;
+margin:20px;
+padding:20px;
+border-radius:8px;
+box-shadow:0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Skills */
+.skills{
+list-style:none;
+padding:0;
+}
+
+.skills li{
+background:white;
+color:#333;
+margin:10px;
+padding:10px;
+border-radius:5px;
+}
+
+/* Contact Form */
+.contact-form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+margin:10px 0;
+padding:10px;
+border-radius:5px;
+border:none;
+}
+
+/* Footer */
+footer{
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
